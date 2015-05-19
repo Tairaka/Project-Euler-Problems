@@ -24,18 +24,28 @@ namespace Problem1
 
 		static void Main(string[] args)
 		{
-			int sum = 0;
+			Console.WriteLine(SumMultiplesOfThreeAndFive(1000));
+			Console.Read();
+		}
 
-			for (int i = 0; i < 1000; i++)
+		private static int SumMultiplesOfThreeAndFive(int UpperLimit)
+		{
+			int sum = 0;
+			
+			if(UpperLimit < 3)
 			{
-				if((i % 3 == 0) || (i % 5 == 0))
+				return 0;
+			}
+
+			for (int i = 0; i < UpperLimit; i++)
+			{
+				if ((i % 3 == 0) || (i % 5 == 0))
 				{
 					sum += i;
 				}
 			}
 
-			Console.WriteLine(sum);
-			Console.Read();
+			return sum;
 		}
 	}
 }
