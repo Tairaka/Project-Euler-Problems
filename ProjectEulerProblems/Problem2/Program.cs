@@ -27,6 +27,35 @@ namespace Problem2
 
 		static void Main(string[] args)
 		{
+			int upperLimit = 4000000;
+			int firstNum = 1;
+			int secondNum = 2;
+			int tempNum = 0;
+
+			int sum = 2;
+
+			while(firstNum + secondNum < upperLimit)
+			{
+				tempNum = firstNum + secondNum;
+
+				if(tempNum % 2 == 0)
+				{
+					sum += tempNum;
+				}
+
+				if(firstNum > secondNum)
+				{
+					secondNum = tempNum;
+				}
+				else if (firstNum < secondNum)
+				{
+					firstNum = tempNum;
+				}
+			}
+
+			Console.WriteLine(sum);
+			Console.Read();
 		}
+
 	}
 }
