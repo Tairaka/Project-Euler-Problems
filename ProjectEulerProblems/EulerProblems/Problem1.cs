@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Problem1
+namespace EulerProblems
 {
-	class Program
-	{
+    public class Problem1
+    {
 		//**************************************************************************
 		// The following problem can be found here:
 		//	https://projecteuler.net/problem=1
@@ -22,17 +22,11 @@ namespace Problem1
 		//
 		//**************************************************************************
 
-		static void Main(string[] args)
-		{
-			Console.WriteLine(SumMultiplesOfThreeAndFive(1000));
-			Console.Read();
-		}
-
-		private static int SumMultiplesOfThreeAndFive(int UpperLimit)
+		public int SumMultiplesOfThreeAndFive(int UpperLimit = 1000)
 		{
 			int sum = 0;
-			
-			if(UpperLimit < 3)
+
+			if (UpperLimit < 3)
 			{
 				return 0;
 			}
@@ -47,5 +41,5 @@ namespace Problem1
 
 			return sum;
 		}
-	}
+    }
 }

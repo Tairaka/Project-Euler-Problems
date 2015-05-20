@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Problem2
+namespace EulerProblems
 {
-	class Program
+	public class Problem2
 	{
 		//**************************************************************************
 		// The following problem can be found here:
@@ -25,25 +25,24 @@ namespace Problem2
 		//
 		//**************************************************************************
 
-		static void Main(string[] args)
+		public int EvenFibonacciSum(int upperLimit = 4000000)
 		{
-			int upperLimit = 4000000;
 			int firstNum = 1;
 			int secondNum = 2;
 			int tempNum = 0;
 
 			int sum = 2;
 
-			while(firstNum + secondNum < upperLimit)
+			while (firstNum + secondNum < upperLimit)
 			{
 				tempNum = firstNum + secondNum;
 
-				if(tempNum % 2 == 0)
+				if (tempNum % 2 == 0)
 				{
 					sum += tempNum;
 				}
 
-				if(firstNum > secondNum)
+				if (firstNum > secondNum)
 				{
 					secondNum = tempNum;
 				}
@@ -53,9 +52,7 @@ namespace Problem2
 				}
 			}
 
-			Console.WriteLine(sum);
-			Console.Read();
+			return sum;
 		}
-
 	}
 }
