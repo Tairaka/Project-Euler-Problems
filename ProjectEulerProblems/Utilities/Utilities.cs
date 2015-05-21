@@ -8,7 +8,6 @@ namespace Utils
 {
     public static class Utilities
     {
-
 		public static bool IsPrime(double num)
 		{
 			bool success = true;

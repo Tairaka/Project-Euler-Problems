@@ -38,6 +38,38 @@ namespace EulerProblemSelection
 						Problem3 pr3 = new Problem3();
 						output = pr3.FindLargestPrimeFactor().ToString();
 						break;
+					case 4:
+						Problem4 pr4 = new Problem4();
+						output = pr4.LargestPalindrome().ToString();
+						break;
+					case 5:
+						Problem5 pr5 = new Problem5();
+						output = pr5.FindSmallestMultiple().ToString();
+						break;
+					case 6:
+						output = "Not yet Implemented";
+						break;
+					case 7:
+						output = "Not yet Implemented";
+						break;
+					case 8:
+						output = "Not yet Implemented";
+						break;
+					case 9:
+						output = "Not yet Implemented";
+						break;
+					case 10:
+						output = "Not yet Implemented";
+						break;
+					case 11:
+						output = "Not yet Implemented";
+						break;
+					case 12:
+						output = "Not yet Implemented";
+						break;
+					case 13:
+						output = "Not yet Implemented";
+						break;
 					default:
 						output = "Problem Number Not Found!";
 						break;
