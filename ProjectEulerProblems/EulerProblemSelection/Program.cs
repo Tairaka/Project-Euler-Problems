@@ -34,6 +34,10 @@ namespace EulerProblemSelection
 						Problem2 pr2 = new Problem2();
 						output = pr2.EvenFibonacciSum().ToString();
 						break;
+					case 3:
+						Problem3 pr3 = new Problem3();
+						output = pr3.FindLargestPrimeFactor().ToString();
+						break;
 					default:
 						output = "Problem Number Not Found!";
 						break;

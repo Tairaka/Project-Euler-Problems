@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem2", "Problem2\Problem2.csproj", "{6786BFB8-B221-4B0A-B801-55A93C728AD0}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerProblemSelection", "EulerProblemSelection\EulerProblemSelection.csproj", "{5DF6DA16-76B6-4D96-9309-57A957749908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{DA998041-71CF-4FB5-ACC9-2A7E3F4844DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utilities\Utils.csproj", "{DA998041-71CF-4FB5-ACC9-2A7E3F4844DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EulerProblems", "EulerProblems\EulerProblems.csproj", "{8CD7FA49-19C0-4895-B0CB-4DFD93066AF8}"
 EndProject
@@ -17,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6786BFB8-B221-4B0A-B801-55A93C728AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6786BFB8-B221-4B0A-B801-55A93C728AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6786BFB8-B221-4B0A-B801-55A93C728AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6786BFB8-B221-4B0A-B801-55A93C728AD0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5DF6DA16-76B6-4D96-9309-57A957749908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5DF6DA16-76B6-4D96-9309-57A957749908}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DF6DA16-76B6-4D96-9309-57A957749908}.Release|Any CPU.ActiveCfg = Release|Any CPU

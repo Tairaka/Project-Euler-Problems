@@ -41,12 +41,13 @@
   <ItemGroup>
     <Compile Include="Problem1.cs" />
     <Compile Include="Problem2.cs" />
+    <Compile Include="Problem3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Utilities\Utilities.csproj">
+    <ProjectReference Include="..\Utilities\Utils.csproj">
       <Project>{da998041-71cf-4fb5-acc9-2a7e3f4844dc}</Project>
-      <Name>Utilities</Name>
+      <Name>Utils</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
