@@ -17,13 +17,15 @@ namespace Utils
 			{
 				success = false;
 			}
-
-			for (int i = 2; i <= bound; i++)
+			else
 			{
-				if (num % i == 0)
+				for (int i = 2; i <= bound; i++)
 				{
-					success = false;
-					break;
+					if (num % i == 0)
+					{
+						success = false;
+						break;
+					}
 				}
 			}
 
