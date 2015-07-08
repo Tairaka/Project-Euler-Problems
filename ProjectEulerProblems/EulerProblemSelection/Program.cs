@@ -47,7 +47,8 @@ namespace EulerProblemSelection
 						output = pr5.FindSmallestMultiple().ToString();
 						break;
 					case 6:
-						output = "Not yet Implemented";
+						Problem6 pr6 = new Problem6();
+						output = pr6.SumSquareDifference().ToString();
 						break;
 					case 7:
 						output = "Not yet Implemented";
