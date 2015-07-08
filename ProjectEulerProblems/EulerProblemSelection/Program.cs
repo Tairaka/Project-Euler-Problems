@@ -51,7 +51,8 @@ namespace EulerProblemSelection
 						output = pr6.SumSquareDifference().ToString();
 						break;
 					case 7:
-						output = "Not yet Implemented";
+						Problem7 pr7 = new Problem7();
+						output = pr7.nthPrimeNumber().ToString();
 						break;
 					case 8:
 						output = "Not yet Implemented";

@@ -10,9 +10,9 @@ namespace EulerProblems
 	{
 		//**************************************************************************
 		// The following problem can be found here:
-		//	https://projecteuler.net/problem=5
+		//	https://projecteuler.net/problem=6
 		//
-		// Problem 
+		// Problem 6
 		// Sum Square Difference
 		//
 		// The sum of the squares of the first ten natural numbers is,
