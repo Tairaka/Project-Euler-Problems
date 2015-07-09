@@ -49,11 +49,11 @@ namespace EulerProblemSelection
 				switch (inputNum)
 				{
 					case 1:
-						Problem1 pr1 = new Problem1();
+						Problem001 pr1 = new Problem001();
 						output = pr1.SumMultiplesOfThreeAndFive().ToString();
 						break;
 					case 2:
-						Problem2 pr2 = new Problem2();
+						Problem002 pr2 = new Problem002();
 						output = pr2.EvenFibonacciSum().ToString();
 						break;
 					case 3:
@@ -61,31 +61,31 @@ namespace EulerProblemSelection
 						output = pr3.FindLargestPrimeFactor().ToString();
 						break;
 					case 4:
-						Problem4 pr4 = new Problem4();
+						Problem004 pr4 = new Problem004();
 						output = pr4.LargestPalindrome().ToString();
 						break;
 					case 5:
-						Problem5 pr5 = new Problem5();
+						Problem005 pr5 = new Problem005();
 						output = pr5.FindSmallestMultiple().ToString();
 						break;
 					case 6:
-						Problem6 pr6 = new Problem6();
+						Problem006 pr6 = new Problem006();
 						output = pr6.SumSquareDifference().ToString();
 						break;
 					case 7:
-						Problem7 pr7 = new Problem7();
+						Problem007 pr7 = new Problem007();
 						output = pr7.nthPrimeNumber().ToString();
 						break;
 					case 8:
-						Problem8 pr8 = new Problem8();
+						Problem008 pr8 = new Problem008();
 						output = pr8.LargestProductInSeries(testSeries).ToString();
 						break;
 					case 9:
-						Problem9 pr9 = new Problem9();
+						Problem009 pr9 = new Problem009();
 						output = pr9.SpecialPythagoreanTriplet().ToString();
 						break;
 					case 10:
-						Problem10 pr10 = new Problem10();
+						Problem010 pr10 = new Problem010();
 						output = pr10.SummationOfPrimes().ToString();
 						break;
 					case 11:

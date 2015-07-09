@@ -8,7 +8,7 @@ using Utils;
 
 namespace EulerProblems
 {
-	public class Problem7
+	public class Problem007
 	{
 		//**************************************************************************
 		// The following problem can be found here:

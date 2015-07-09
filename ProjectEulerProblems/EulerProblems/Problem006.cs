@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EulerProblems
 {
-	public class Problem6
+	public class Problem006
 	{
 		//**************************************************************************
 		// The following problem can be found here:
