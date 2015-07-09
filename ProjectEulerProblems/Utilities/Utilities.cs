@@ -13,7 +13,9 @@ namespace Utils
 			bool success = true;
 			long bound = (long)Math.Floor(Math.Sqrt(num));
 
-			if (num == 1 || ((num % 2) == 0) || ((num % 5) == 0))
+			if (num == 1 || 
+				(((num % 2) == 0) && num != 2) || 
+				(((num % 5) == 0) && num != 5))
 			{
 				success = false;
 			}

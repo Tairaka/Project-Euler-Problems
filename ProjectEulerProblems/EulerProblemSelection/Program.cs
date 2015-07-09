@@ -85,7 +85,8 @@ namespace EulerProblemSelection
 						output = pr9.SpecialPythagoreanTriplet().ToString();
 						break;
 					case 10:
-						output = "Not yet Implemented";
+						Problem10 pr10 = new Problem10();
+						output = pr10.SummationOfPrimes().ToString();
 						break;
 					case 11:
 						output = "Not yet Implemented";

@@ -27,10 +27,10 @@ namespace EulerProblems
 		public long nthPrimeNumber(int num = 10001)
 		{
 			long prime = 0;
-			int counter = 1;
+			int counter = 0;
 			int testNum = 0;
 
-			while (counter < num - 1)
+			while (counter < num)
 			{
 				testNum++;
 
