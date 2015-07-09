@@ -81,7 +81,8 @@ namespace EulerProblemSelection
 						output = pr8.LargestProductInSeries(testSeries).ToString();
 						break;
 					case 9:
-						output = "Not yet Implemented";
+						Problem9 pr9 = new Problem9();
+						output = pr9.SpecialPythagoreanTriplet().ToString();
 						break;
 					case 10:
 						output = "Not yet Implemented";
