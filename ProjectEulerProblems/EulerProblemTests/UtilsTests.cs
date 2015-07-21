@@ -2,7 +2,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using Utils;
-using EulerProblems;
 
 
 namespace EulerProblemTests
@@ -17,7 +16,7 @@ namespace EulerProblemTests
 
 			foreach(int p in primeArray)
 			{
-				Assert.AreEqual(true, Utilities.IsPrime(p), "The following number failed {0}", p);
+				Assert.IsTrue(Utilities.IsPrime(p), "The following number failed {0}", p);
 			}
 		}
 
@@ -28,7 +27,7 @@ namespace EulerProblemTests
 
 			foreach (int p in primeArray)
 			{
-				Assert.AreEqual(false, Utilities.IsPrime(p), "The following number failed {0}", p);
+				Assert.IsFalse(Utilities.IsPrime(p), "The following number failed {0}", p);
 			}
 		}
 	}
