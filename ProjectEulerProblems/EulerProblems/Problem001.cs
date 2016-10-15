@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EulerProblems
+﻿namespace EulerProblems
 {
-    public class Problem001
+	public class Problem001
     {
 		//**************************************************************************
 		// The following problem can be found here:
